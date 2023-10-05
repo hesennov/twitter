@@ -2,6 +2,7 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import classNames from "classnames";
 import { mainMenu } from "@/utils/consts";
+import Button from "@/components/button";
 const index = () => {
   return (
     <nav className="mt-0.5 mb-1">
@@ -48,6 +49,9 @@ const index = () => {
           <div className="text-xl pr-4">daha fazla</div>
         </div>
       </button>
+      <div className="py-4">
+        <Button size="large">Gönder</Button>
+      </div>
     </nav>
   );
 };
