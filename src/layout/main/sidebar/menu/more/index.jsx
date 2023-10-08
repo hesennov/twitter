@@ -4,12 +4,6 @@ import Button from "@/components/button";
 const index = () => {
   return (
     <Popover>
-      <Popover.Button>
-        <Button size="large">click</Button>
-      </Popover.Button>
-      <Popover.Panel>
-        <div className="w-28 h-28 bg-slate-600"></div>
-      </Popover.Panel>
       <button className="py-1 block group">
         <div className="p-3 rounded-full inline-flex transition-colors items-center gap-5  group-hover:bg-[#eff3f41a]">
           <div className="w=[26.25px] h-[26.25px] relative">
